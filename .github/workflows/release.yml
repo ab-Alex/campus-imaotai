@@ -4,7 +4,6 @@ on:
   workflow_dispatch: 
     inputs:
         version_name:
-          description: '版本号'
           required: false
           type: string
 
